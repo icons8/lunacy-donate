@@ -82,7 +82,7 @@ h4 {
 }
 .sr-header__logo {
   background-image: var(--logo-image);
-  height: 24px;
+  height: 48px;
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
@@ -359,7 +359,7 @@ pre {
 :root {
   --accent-color: black;
   --headline-color: var(--accent-color);
-  --logo-image: url("https://img.icons8.com/material/48/4ac144/icons8-new-logo.png");
+  --logo-image: url("https://img.icons8.com/material/96/4ac144/icons8-new-logo.png");
 }
 
 .pasha-image-stack {
