@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Stripe Checkout Sample</title>
-    <meta name="description" content="A demo of Stripe client-only Checkout" />
+    <title>Lunacy Donation</title>
+    <meta name="description" content="Donation for Icons8 Lunacy" />
 
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/normalize.css" />
@@ -23,28 +23,40 @@
             <h1>One-time Donation</h1>
             <button
               data-checkout-mode="payment"
-              data-price-id="sku_GU4JYXyvvRb2sX"
+              data-price-id="price_HMHH39FtytBYUq"
             >
               Donate $5.00 once
             </button>
             <button
               data-checkout-mode="payment"
-              data-price-id="sku_GU4KO8nfdg8G2Z"
+              data-price-id="price_HMHJo9fXLLnOKl"
             >
-              Donate $15.00 once
+              Donate $10.00 once
             </button>
             <button
               data-checkout-mode="payment"
-              data-price-id="sku_GU4LB0wBViiYsm"
+              data-price-id="price_HMHJ8f6wRVZqX2"
             >
-              Donate $50.00 once
+              Donate $20.00 once
             </button>
           </section>
           <section class="container">
             <h1>Recurring Donation</h1>
             <button
               data-checkout-mode="subscription"
-              data-price-id="plan_GU4MXg0k0Uv1S6"
+              data-price-id="price_HMHJpgbPnDlbbR"
+            >
+              Donate $5.00 per month
+            </button>
+            <button
+              data-checkout-mode="subscription"
+              data-price-id="price_HMHJASCsV4B5rN"
+            >
+              Donate $10.00 per month
+            </button>
+            <button
+              data-checkout-mode="subscription"
+              data-price-id="price_HMHJGqXdkxSATS"
             >
               Donate $20.00 per month
             </button>
@@ -53,22 +65,10 @@
         <div id="error-message"></div>
       </div>
     </div>
-    <div class="banner">
-      <span>
-        This is a
-        <a href="https://github.com/stripe-samples"> Stripe Sample </a> on how
-        to use Stripe Checkout on GitHub Pages.
-        <a
-          href="https://github.com/stripe-samples/github-pages-stripe-checkout"
-        >
-          View code on GitHub.
-        </a>
-      </span>
-    </div>
-
+   
     <script>
       // Replace with your own publishable key: https://dashboard.stripe.com/test/apikeys
-      var PUBLISHABLE_KEY = 'pk_test_Tr8olTkdFnnJVywwhNPHwnHK00HkHV4tnP';
+      var PUBLISHABLE_KEY = 'pk_live_5RbmuNHx4McGCdHE43kmOqjF';
       // Replace with the domain you want your users to be redirected back to after payment
       var DOMAIN = location.href.replace(/[^/]*$/, '');
 
